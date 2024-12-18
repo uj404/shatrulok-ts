@@ -1,0 +1,30 @@
+{
+  "name": "shatrulok-ts",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000t\u0000a\u0000t\u0000r\u0000u\u0000l\u0000o\u0000k\u0000-\u0000t\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --watch",
+    "serve": "lite-server",
+    "start": "concurrently \"npm run build\" \"npm run serve\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uj404/shatrulok-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/uj404/shatrulok-ts/issues"
+  },
+  "homepage": "https://github.com/uj404/shatrulok-ts#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "http-server": "^14.1.1",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.7.2"
+  }
+}
